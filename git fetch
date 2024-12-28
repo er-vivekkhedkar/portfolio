@@ -1,0 +1,24 @@
+[33mcommit 02fbe661272e6316af67dd7ca9a0e39c4e236047[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Merge: 8b4f317 38a79b7
+Author: Vivek <er.khedkarvivek@gmail.com>
+Date:   Sat Dec 28 14:21:09 2024 +0530
+
+    Merge branch 'master'
+
+[33mcommit 38a79b73dbcdff3c57e22a11ccf963c90d288ac4[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Vivek <er.khedkarvivek@gmail.com>
+Date:   Sat Dec 28 14:01:16 2024 +0530
+
+    Initial commit
+
+[33mcommit 8b4f3179f46300a241ba0dea55c59c05cfc4866c[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Vivek Khedkar <vivekkhedkar110@gmail.com>
+Date:   Sat Dec 28 13:54:13 2024 +0530
+
+    Initial commit
+
+[33mcommit 94125628dbae67fb1e85a6888de270a4bc8d0f15[m
+Author: Vivek <er.khedkarvivek@gmail.com>
+Date:   Thu Dec 26 11:47:14 2024 +0530
+
+    Initial commit from Create Next App
