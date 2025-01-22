@@ -43,15 +43,6 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "Sikhley: Course Website",
-    description: "Built a modern course website using React, Next.js, TypeScript, and Tailwind CSS, focusing on a user-friendly interface.",
-    image: "/images/projects/lmsp.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/ShivamPal7/sikhley",
-    previewUrl: "https://sikhley.vercel.app",
-  },
-  {
-    id: 6,
     title: "Podcast AI ",
     description: "Transform ideas into captivating podcasts with your AI Podcast Generator! From script to sound, create studio-quality episodes in a flash—no experience needed!",
     image: "/images/projects/podcast.png",
@@ -59,6 +50,15 @@ const projectsData = [
     gitUrl: "https://github.com/er-vivekkhedkar/PodcastAI",
     previewUrl: "https://podcastaii.vercel.app",
   },
+  // {
+  //   id: 6,
+  //   title: "Sikhley: Course Website",
+  //   description: "Built a modern course website using React, Next.js, TypeScript, and Tailwind CSS, focusing on a user-friendly interface.",
+  //   image: "/images/projects/lmsp.png",
+  //   tag: ["All", "Web"],
+  //   gitUrl: "https://github.com/ShivamPal7/sikhley",
+  //   previewUrl: "https://sikhley.vercel.app",
+  // },
 ];
 
 const ProjectsSection = () => {
