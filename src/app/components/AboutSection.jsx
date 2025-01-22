@@ -12,10 +12,11 @@ const TAB_DATA = [
         <li>HTMl</li>
         <li>CSS</li>
         <li>JavaScript</li>
-        <li>React</li>
+        <li>ReactJs</li>
+        <li>NextJs</li>
         <li>MySql</li>
+        <li>MongoDb</li>
         <li>NodeJs</li>
-        <li>Java</li>
         <li>Ui/Ux Design </li>
       </ul>
     ),
@@ -35,8 +36,9 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Frontend Web Devloper </li>
+        <li>C++ </li>
+        <li>Blender</li>
       </ul>
     ),
   },
