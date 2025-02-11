@@ -14,17 +14,17 @@ const projectsData = [
     gitUrl: "https://github.com/er-vivekkhedkar/portfolio",
     previewUrl: "/",
   },
+  // {
+  //   id: 2,
+  //   title: "Sikhley: Course Website",
+  //   description: "Built a modern course website using React, Next.js, TypeScript, and Tailwind CSS, focusing on a user-friendly interface.",
+  //   image: "/images/projects/lmsp.png",
+  //   tag: ["All", "Web"],
+  //   gitUrl: "https://github.com/ShivamPal7/sikhley",
+  //   previewUrl: "https://sikhley.vercel.app",
+  // },
   {
     id: 2,
-    title: "Sikhley: Course Website",
-    description: "Built a modern course website using React, Next.js, TypeScript, and Tailwind CSS, focusing on a user-friendly interface.",
-    image: "/images/projects/lmsp.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/ShivamPal7/sikhley",
-    previewUrl: "https://sikhley.vercel.app",
-  },
-  {
-    id: 3,
     title: "Bg-Removal SaaS",
     description: "Features: High-quality background removal with authentication, payment integration, credit systems, and a free tier.",
     image: "/images/projects/bgremoval.png",
@@ -33,7 +33,7 @@ const projectsData = [
     previewUrl: "https://bgremoval-pro.vercel.app",
   },
   {
-    id: 4,
+    id: 3,
     title: "AI-YouTube Summarizer",
     description: "Developed a YouTube video summarizer that automatically generates concise, accurate summaries of video content using AI models.",
     image: "/images/projects/yt.png",
@@ -42,7 +42,7 @@ const projectsData = [
     previewUrl: "https://youtubesummarizer.vercel.app",
   },
   {
-    id: 5,
+    id: 4,
     title: "MetaGame - Animated Landing Page",
     description: "Immersive Animated Experience: Built a next-generation animated website with dynamic visuals and interactive features, delivering a captivating user experience.",
     image: "/images/projects/metagame.png",
@@ -51,7 +51,7 @@ const projectsData = [
     previewUrl: "https://metagame.vercel.app",
   },
   {
-    id: 6,
+    id: 5,
     title: "Podcast AI ",
     description: "Transform ideas into captivating podcasts with your AI Podcast Generator! From script to sound, create studio-quality episodes in a flash—no experience needed!",
     image: "/images/projects/podcast.png",
