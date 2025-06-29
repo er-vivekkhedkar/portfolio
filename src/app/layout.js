@@ -12,7 +12,7 @@ export const metadata = {
   openGraph: {
     title: 'Vivek Khedkar – Web Developer & Tech Enthusiast',
     description: 'Explore the portfolio of Vivek Khedkar, showcasing innovative web projects and skills.',
-    url: 'https://vivekkhedkar.vercel.app/', // replace with your actual domain
+    url: 'https://vivekkhedkar.vercel.app/', 
     type: 'website',
     images: [
       {
