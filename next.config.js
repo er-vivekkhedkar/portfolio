@@ -1,10 +1,9 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   experimental: {
     // Only include experimental options that are supported in your Next.js version
     // Remove appDir and fontLoaders if unsupported
-    // appDir: true, 
+    // appDir: true,
     // fontLoaders: [{ loader: '@next/font/google', options: { subsets: ['latin'] } }],
   },
 };
