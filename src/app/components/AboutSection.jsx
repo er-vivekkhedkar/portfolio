@@ -27,7 +27,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>SSC 10th Boards - 86.4%</li>
-        <li>Diploma in Information Technology</li>
+        <li>Diploma in Information Technology - 93.75%</li>
       </ul>
     ),
   },
@@ -37,8 +37,11 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Frontend Web Devloper </li>
+        <li>Full Stack Web Developer</li>
         <li>C++ </li>
         <li>Blender</li>
+        <li>R Programming</li>
+       
       </ul>
     ),
   },
