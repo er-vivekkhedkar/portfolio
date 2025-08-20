@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "React Portfolio Website",
-    description: "Portfolio Website ",
+    description: "A personal portfolio built with React, showcasing my projects, skills, and contact form.",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/er-vivekkhedkar/portfolio",
@@ -16,8 +16,8 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Sikhley: Course Website",
-    description: "Built a modern course website using React, Next.js, TypeScript, and Tailwind CSS, focusing on a user-friendly interface.",
+    title: "Sikhley - Course Website",
+    description: "Developed using React, Next.js, TypeScript, and Tailwind CSS. Emphasized clean, responsive UI for an intuitive learning experience.",
     image: "/images/projects/lmsp.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/ShivamPal7/sikhley",
@@ -26,7 +26,7 @@ const projectsData = [
   {
     id: 3,
     title: "Bg-Removal SaaS",
-    description: "Features: High-quality background removal with authentication, payment integration, credit systems, and a free tier.",
+    description: "Built an AI-powered background removal tool with authentication, payment integration, and both credit-based and free-tier access models.",
     image: "/images/projects/bgremoval.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/er-vivekkhedkar/bgremoval-pro",
@@ -34,8 +34,8 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "AI-YouTube Summarizer",
-    description: "Developed a YouTube video summarizer that automatically generates concise, accurate summaries of video content using AI models.",
+    title: "AI YouTube Summarizer",
+    description: "Automated AI-based summaries of YouTube videos using natural language processing to deliver concise content understanding.",
     image: "/images/projects/yt.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/er-vivekkhedkar/YT-Summarizer",
@@ -43,8 +43,8 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "MetaGame - Animated Landing Page",
-    description: "Immersive Animated Experience: Built a next-generation animated website with dynamic visuals and interactive features, delivering a captivating user experience.",
+    title: "MetaGame – Animated Landing Page",
+    description: "Designed a visually immersive, dynamic landing page with rich animations to enhance user engagement.",
     image: "/images/projects/metagame.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/er-vivekkhedkar/Metagame",
@@ -52,8 +52,8 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Podcast AI ",
-    description: "Transform ideas into captivating podcasts with your AI Podcast Generator! From script to sound, create studio-quality episodes in a flash—no experience needed!",
+    title: "Podcast AI Generator",
+    description: "Created an AI tool to convert scripts into studio-quality podcasts — easy and fast creation, no experience needed.",
     image: "/images/projects/podcast.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/er-vivekkhedkar/PodcastAI",

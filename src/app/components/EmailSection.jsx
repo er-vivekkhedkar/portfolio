@@ -54,9 +54,8 @@ const EmailSection = () => {
       <div className="z-10">
         <h5 className="text-xl font-bold text-white my-2">Let&apos;s Connect</h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
-          I&apos;m currently looking for new opportunities, my inbox is always
-          open. Whether you have a question or just want to say hi, I&apos;ll
-          try my best to get back to you!
+          I&apos;m actively seeking new opportunities. My inbox is always open — whether it&apos;s a question or just a quick chat, I&apos;ll be happy to connect.
+
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="https://github.com/er-vivekkhedkar">

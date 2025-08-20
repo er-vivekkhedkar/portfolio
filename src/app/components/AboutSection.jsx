@@ -9,7 +9,7 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>HTMl</li>
+        <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>
         <li>ReactJs</li>
@@ -59,7 +59,7 @@ const AboutSection = () => {
 
   return (
     <section className="text-white" id="about">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+      <div className="md:grid md:grid-cols-2 gap-8 items-center py-12 px-4 xl:gap-16 sm:py-16 xl:px-16">
       <Image
       src="/images/projects/about-image.png" 
       alt="About Images" 
@@ -68,11 +68,8 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            As a Full-Stack Web Developer driven by a passion for crafting interactive, responsive applications, I&apos;ve built with JavaScript, React, HTML, CSS, Git—and always strive to learn more. I'm collaborative, proactive, and love working together to bring creative ideas to life.
+
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

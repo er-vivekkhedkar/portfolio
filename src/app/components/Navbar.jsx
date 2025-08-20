@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import React, { useState } from "react";
+import Image from "next/image";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
@@ -19,6 +20,11 @@ const navLinks = [
     path: "#projects",
   },
   {
+    title:"Experience",
+    path:"#experience",
+
+  },
+  {
     title: "Contact",
     path: "#contact",
   },
@@ -30,12 +36,21 @@ const Navbar = () => {
   return (
     <nav className=" fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-50 bg-[#121212] bg-opacity-100 ">
      
-      <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
+      <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-9 py-2">
         <Link
           href={"/"}
-          className="text-2xl md:text-5xl text-white font-semibold"
+          className="flex items-center gap-3 text-2xl md:text-4xl text-white font-semibold"
         >
-          Portfolio
+          <div className="rounded-full  w-[40px] h-[40px] md:w-[60px] md:h-[60px] relative">
+            <Image
+              src="/images/hero-image.png"
+              alt="Vivek logo"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full"
+              width={50}
+              height={50}
+            />
+          </div>
+          Vivekk
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (

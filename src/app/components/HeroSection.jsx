@@ -36,7 +36,7 @@ const HeroSection = () => {
           </h1>
 
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            I am Web Developer , Ui/Ux Designer 
+            I'm Full-Stack Web Developer & UI/UX Designer 
           </p>
           <div>
             <Link
