@@ -27,7 +27,8 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>SSC 10th Boards - 86.4%</li>
-        <li>Diploma in Information Technology - 93.75%</li>
+        <li>GPMumbai - Diploma in Information Technology - 93.75%</li>
+        <li>COEP - Btech in Robotics & Ai</li>
       </ul>
     ),
   },
