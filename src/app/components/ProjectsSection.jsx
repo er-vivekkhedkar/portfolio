@@ -59,15 +59,44 @@ const projectsData = [
     gitUrl: "https://github.com/er-vivekkhedkar/PodcastAI",
     previewUrl: "https://podcastaii.vercel.app",
   },
+  {
+    id: 7,
+    title: "Mauli Electric Bike",
+    description: "A modern landing page for an electric bike brand, featuring sleek design and product showcases.",
+    image: "/images/projects/mauliebike.png",
+    tag: ["All", "Landing Page"],
+    gitUrl: "/",
+    previewUrl: "https://www.maulielectricbike.com/",
+  },
+   {
+    id: 8,
+    title: "Team Octane Racing",
+    description: "High-energy racing team website with dynamic visuals and team information.",
+    image: "/images/projects/teamoctane.png",
+    tag: ["All", "Landing Page"],
+    gitUrl: "/",
+    previewUrl: "https://www.teamoctaneracing.in/",
+  },
+   {
+    id: 9,
+    title: "Swartaal Music Academy",
+    description: "Elegant music academy website highlighting courses, mentors, and events.",
+    image: "/images/projects/swartal.png",
+    tag: ["All", "Landing Page"],
+    gitUrl: "/",
+    previewUrl: "https://swartaalmusicacademy.vercel.app/",
+  },
 ];
 
 const ProjectsSection = () => {
   const [tag, setTag] = useState("All");
+  const [visibleProjects, setVisibleProjects] = useState(6);
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
   const handleTagChange = (newTag) => {
     setTag(newTag);
+    setVisibleProjects(6);
   };
 
   const filteredProjects = projectsData.filter((project) =>
@@ -97,12 +126,12 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Landing Page"
+          isSelected={tag === "Landing Page"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
-        {filteredProjects.map((project, index) => (
+        {filteredProjects.slice(0, visibleProjects).map((project, index) => (
           <motion.li
             key={index}
             variants={cardVariants}
@@ -121,6 +150,28 @@ const ProjectsSection = () => {
           </motion.li>
         ))}
       </ul>
+      <div className="flex justify-center items-center gap-4 mt-8">
+        {visibleProjects < filteredProjects.length && (
+          <motion.button
+            onClick={() => setVisibleProjects((prev) => prev + 6)}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            className="px-6 py-3 rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white font-semibold shadow-lg shadow-primary-500/50"
+          >
+            Load More
+          </motion.button>
+        )}
+        {visibleProjects > 6 && (
+          <motion.button
+            onClick={() => setVisibleProjects(6)}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            className="px-6 py-3 rounded-full bg-transparent border border-white hover:bg-white hover:text-black text-white font-semibold shadow-lg shadow-white/20"
+          >
+            Show Less
+          </motion.button>
+        )}
+      </div>
     </section>
   );
 };
